@@ -1,0 +1,14 @@
+.foto{
+    width: 225px;
+    height: 225px;
+    border: 5px solid red;
+}
+
+.texto{
+    float: right;
+    text-align: justify;
+    margin: 15px;
+    width: 20%;
+    padding-right: 250px;
+    
+}
