@@ -2,10 +2,22 @@ hr{
     margin-bottom: 30px;
 }
 
+/*
+ vc reparou que da pizza 1 a 5, todas tem o mesmo estilo?
+ Isso significa que podemos reaproveitar a classe. Poderia ser uma classe só, chamada pizza, por exemplo.
+ Aí você eliminaria todos os outros estilo e ainda ficaria com um arquivo mais enxuto.
+ Faz sentido?
+
+ .pizza{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+*/
 .pizza1{
-        color: black
+        color: black /* faltou ponto e vírgula aqui. Por isso o atributo de baixo ta branco e não funciona*/
     font-family: 'Times New Roman', Times, serif;
-    font-size:15px 
+    font-size:15px /* faltou ponto e vírgula aqui.*/
 }
 .primeira  {
     color: blue;
@@ -13,42 +25,47 @@ hr{
 
 .pizza2{
    
-    color: black
+    color: black /* faltou ponto e vírgula aqui. Por isso o atributo de baixo ta branco e não funciona*/
     font-family: 'Times New Roman', Times, serif;
-    font-size:15px 
+    font-size:15px /* faltou ponto e vírgula aqui.*/
 }
+
 .segunda{
     color: green
 }
 
 .pizza3{
-    color: black
+    color: black /* faltou ponto e vírgula aqui. Por isso o atributo de baixo ta branco e não funciona*/
     font-family: 'Times New Roman', Times, serif;
-    font-size:15px 
+    font-size:15px /* faltou ponto e vírgula aqui.*/
 }
+
 
 .terceira{
 color: red;
-font-size: 30px
+font-size: 30px /* faltou ponto e vírgula aqui.*/
 }
 
 
+
 .pizza4{
-    color: black
+    color: black /* faltou ponto e vírgula aqui. Por isso o atributo de baixo ta branco e não funciona*/
     font-family: 'Times New Roman', Times, serif;
-    font-size:15px 
+    font-size:15px /* faltou ponto e vírgula aqui.*/
 }
 .quarta{
     font-size: 40px;
     text-decoration: underline;
-    color: blueviolet
+    color: blueviolet /* faltou ponto e vírgula aqui.*/
 }
 
+
 .pizza5{
-    color: black
+    color: black /* faltou ponto e vírgula aqui. Por isso o atributo de baixo ta branco e não funciona*/
     font-family: 'Times New Roman', Times, serif;
-    font-size:15px 
+    font-size:15px /* faltou ponto e vírgula aqui.*/
 }
+
 
 .quinta{
     color: blueviolet; 
